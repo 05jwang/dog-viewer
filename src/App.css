@@ -1,0 +1,50 @@
+.App {
+  display: flex;
+  min-height: 100vh;
+}
+
+.bp5-dark .bp5-button .bp5-input .bp5spinner {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+
+}
+
+.sidebar {
+  width: 20%;
+  height: 100%;
+  padding: 10px;
+  margin-top: 50px;
+  position: fixed;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  background-color: #f5f8fa;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.bp5-dark .sidebar {
+  background-color: #383e47;
+}
+
+.photo-gallery {
+  padding: 10px;
+  margin-top: 50px;
+  width: 80%;
+  margin-left: 20%;
+  background-color: #f9fbfc;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+.bp5-dark .photo-gallery {
+  background-color: #1c2127;
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.theme-toggle {
+  margin-top: 20px;
+}
